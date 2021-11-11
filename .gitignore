@@ -40,8 +40,13 @@ pip-delete-this-directory.txt
 # Integrations
 Runs/*
 
+# Jupyter
+*/.ipynb_checkpoints
+
 # Models
 ModelSeries/*
 ModelSimple/*
-Notebooks/*info*
-Notebooks/*model
+Notebooks/*.json
+Notebooks/*.h5
+Notebooks/RF*
+Notebooks/SVM*
